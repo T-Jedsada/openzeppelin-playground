@@ -1,0 +1,54 @@
+{
+  "contracts": {
+    "Box": {
+      "address": "0xbdf52145fE4551edcA6FDe39F57b04396EFb06E0",
+      "constructorCode": "608060405234801561001057600080fd5b506101cf806100206000396000f3fe",
+      "bodyBytecodeHash": "d009c907e474bc5bce339bf64237a9b18c5aebf4d0ceced6ab62083e86cca8bc",
+      "localBytecodeHash": "9d56582afe548e296e4dd9b01eef0366e82a85113c7baf197b82e3c98f95c7e7",
+      "deployedBytecodeHash": "9d56582afe548e296e4dd9b01eef0366e82a85113c7baf197b82e3c98f95c7e7",
+      "types": {
+        "t_uint256": {
+          "id": "t_uint256",
+          "kind": "elementary",
+          "label": "uint256"
+        }
+      },
+      "storage": [
+        {
+          "contract": "Box",
+          "path": "contracts/box.sol",
+          "label": "value",
+          "astId": 3,
+          "type": "t_uint256",
+          "src": "44:21:0"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": [],
+        "storageUncheckedVars": [],
+        "storageDiff": []
+      }
+    }
+  },
+  "solidityLibs": {},
+  "proxies": {
+    "openzeppelin-playground/Box": [
+      {
+        "address": "0x7cdCBF0408dcce790fDB37eb8eccf04f3F6219D8",
+        "version": "1.0.0",
+        "implementation": "0xbdf52145fE4551edcA6FDe39F57b04396EFb06E0",
+        "admin": "0x447F11AEda544296b1A6d5FF7cC010c112A00f46",
+        "kind": "Upgradeable"
+      }
+    ]
+  },
+  "manifestVersion": "2.2",
+  "version": "1.0.0",
+  "proxyAdmin": {
+    "address": "0x447F11AEda544296b1A6d5FF7cC010c112A00f46"
+  }
+}
